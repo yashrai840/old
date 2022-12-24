@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+</head>
+<body>
+  <div id="header">
+    <div id="container">
+        <nav>
+            <img src="logo3.png" alt="" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="ri-close-fill" onclick="closemenu()"></i>
+            </ul>
+            <i class="ri-menu-line" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I'm <span>Yash</span><br>Rai from India </h1>
+    </div>
+    <div id="img"></div>
+  </div>
+  <!-- --------------ABOUT-------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="temp.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello I am Yash Rai , currently pursuing Bachelor of Technology from Lakshmi Narain College of Technology , Bhopal in Electronics and Communication stream . My current CGPA is 9.38 . My strength are my analytical approach , my human touch to the situation, my appreciable communication and presentation skills .</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>HTML,CSS,Js</li>
+                        <li><span>Programming Languages</span><br>C,C++,Java</li>
+                        <li><span>Database</span><br>MySQL</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Sheriyans Coding School</li>
+                        <li><span>Java Programming</span><br>Sheriyans Coding School</li>
+                        <li><span>C through C++</span><br>SCA BHOPAL</li>
+                        <li><span>Data Structures</span><br>SCA BHOPAL</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B-TECH <br> Electronics And Communication <br>LNCT BHOPAL</li>
+                        <li><span>2020</span><br>12th-CBSE <br>93%</li>
+                        <li><span>2018</span><br>10th-CBSE <br>90%</li>
+                    </ul>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- -------------services-------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="ri-code-line"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae qui animi earum ipsa voluptate fugit quo? Deserunt facere ducimus numquam!</p>
+                <a href="#">Learn more</a>           
+            </div>
+            <div>
+                <i class="ri-crop-line"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae qui animi earum ipsa voluptate fugit quo? Deserunt facere ducimus numquam!</p>
+                <a href="#">Learn more</a>           
+            </div>
+            <div>
+                <i class="ri-code-box-line"></i>
+                <h2>Programming</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae qui animi earum ipsa voluptate fugit quo? Deserunt facere ducimus numquam!</p>
+                <a href="#">Learn more</a>           
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- -----------------portfolio-------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci harum natus corporis et omnis sequi.</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci harum natus corporis et omnis sequi.</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci harum natus corporis et omnis sequi.</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- -------------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="ri-send-plane-fill"></i>raiyash840@gmail.com</p>
+                 <p><i class="ri-phone-fill"></i>7898757739</p>
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yash-rai-013b151b8/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/yash_rai25/" target="_blank"><i class="ri-instagram-line"></i></a>
+                     <a href="https://www.instagram.com/yash_rai25/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                     <a href="https://www.linkedin.com/in/yash-rai-013b151b8/" target="_blank"><i class="ri-twitter-fill"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+           
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                     <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © YASH. Made with <i class="ri-heart-fill"></i></p>
+    </div>
+</div>
+  <script src="script.js"></script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxnCciNt5kMC9t3YW_TmPD45ocohBp61kK0AoWToNPHyQEUPkEPeguug-LbMhhdQD9eRw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
