@@ -67,7 +67,7 @@ nav ul li a:hover:after{
 }
 .header-text{
     position: absolute;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 40px;
     color: white;
     left: 13%;
@@ -83,6 +83,10 @@ nav ul li a:hover:after{
 .about-col-1 img{
     margin-top: 20px;
     height: 70vh;
+}
+.typing{
+    font-size: 60px;
+   color:#a3097a;
 }
 /* -------------------ABOUT---------------- */
 #about{
@@ -413,4 +417,8 @@ nav i{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+.typing{
+    font-size: 60px;
+   color:#a3097a;
 }

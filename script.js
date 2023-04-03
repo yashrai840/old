@@ -21,3 +21,7 @@ function closemenu(){
     sidemeu.style.right="-200px";
 }
 
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#header'),
+    smooth: true
+});
